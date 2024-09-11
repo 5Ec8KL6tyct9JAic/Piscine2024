@@ -6,7 +6,7 @@
 /*   By: davvaler <davvaler@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/28 13:16:44 by davvaler          #+#    #+#             */
-/*   Updated: 2024/08/28 15:49:46 by davvaler         ###   ########.fr       */
+/*   Updated: 2024/09/11 13:23:47 by davvaler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	*ft_range(int min, int max)
 	return (tab);
 }
 
-/*
+
 #include <stdio.h>
 
 int	*ft_range(int min, int max);
@@ -66,4 +66,3 @@ int main(void)
 	free(range);
 	return (0);
 }
-*/

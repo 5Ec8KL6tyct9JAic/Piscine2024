@@ -6,7 +6,7 @@
 /*   By: davvaler <davvaler@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/28 14:23:32 by davvaler          #+#    #+#             */
-/*   Updated: 2024/08/28 15:13:28 by davvaler         ###   ########.fr       */
+/*   Updated: 2024/09/11 13:22:40 by davvaler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	if (tab == NULL)
 		return (-1);
 	i = 0;
-	while (i <= size)
+	while (i < size)
 	{
 		tab[i] = min + i;
 		i++;
@@ -36,7 +36,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	*range = tab;
 	return (size);
 }
-/*
+
 #include <stdio.h>
 
 int	main(void)
@@ -64,4 +64,4 @@ int	main(void)
 	}
 	free(range);
 	return (0);
-}*/
+}
